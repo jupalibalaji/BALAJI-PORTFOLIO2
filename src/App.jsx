@@ -2,6 +2,7 @@ import './App.css';
 import About from './components/About';
 import BJ from './components/BJ';
 import Navbar from "./components/Navbar";
+import Techno from './components/Techno';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Navbar />
         <BJ />
         <About /> 
+        <Techno/>
       </div>
     </div>
   );
