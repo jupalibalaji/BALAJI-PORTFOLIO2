@@ -3,9 +3,9 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I Graduate in Computer Science at Wright State University | Aspiring JAVA Full Stack Developer | Eager to launch a career in software development with a strong foundation in Java and Frontend Technologies`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `Passionate Master’s student in Computer Science at Wright State University, actively seeking opportunities as a Full-Stack Java Developer or Front-End Developer. With robust experience in developing cross-browser compatible web interfaces, I specialize in crafting seamless user experiences across diverse platforms and aligning with web standards. My proficiency in Full-Stack Java Development and client-side MVC frameworks like ReactJS enables me to adeptly integrate webpages with backend APIs, ensuring optimal functionality and performance. I excel in the complete software development lifecycle, creating modular, standards-compliant front-end components using HTML5, CSS3, and JavaScript. Committed to delivering high-quality code through meticulous unit testing, I thrive in collaborative Agile environments and am eager to apply my evolving expertise to real-world challenges. Let’s connect to explore how I can contribute to your team's success! #JavaDeveloper #FullStackDeveloper #FrontEndDeveloper #ComputerScience #GraduateStudent`;
 
 export const EXPERIENCES = [
   {
@@ -43,8 +43,8 @@ export const PROJECTS = [
     title: "E-Commerce Website",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A fully functional e-commerce website with features like product listing, shopping cart",
+    technologies: ["HTML", "CSS", "React", "Node.js"],
   },
   {
     title: "Task Management App",
@@ -70,7 +70,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: " 7127 solar walk, Columbia, MD, 21046 ",
+  phoneNo: "+1 937 867 8224",
+  email: "jupallibalaji1206@gmail.com",
 };
