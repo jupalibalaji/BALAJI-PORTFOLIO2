@@ -3,6 +3,7 @@ import About from './components/About';
 import BJ from './components/BJ';
 import Experience from './components/Experience';
 import Navbar from "./components/Navbar";
+import Projects from './components/Projects';
 import Techno from './components/Techno';
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
         <About /> 
         <Techno/>
         <Experience/>
+        <Projects/>
       </div>
     </div>
   );
