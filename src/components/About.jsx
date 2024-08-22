@@ -20,7 +20,7 @@ const About = () => {
 
         <div className='flex flex-wrap'>
           {/* Fade-in with scale for the image */}
-          <div className='w-full lg:w-1/2 lg:p-8'>
+          <div className='w-full lg:w-1/2 lg:p-8 flex items-center justify-center'>
             <motion.div
               key="image"
               initial={{ opacity: 0, scale: 0.8 }}
@@ -29,7 +29,12 @@ const About = () => {
               transition={{ duration: 1.5, ease: "easeOut" }}
               className='flex items-center justify-center'
             >
-              <img className='rounded-2xl' src={aboutImg} alt="About Me" />
+              <img
+                className='rounded-2xl'
+                src={aboutImg}
+                alt="About Me"
+                style={{ width: '500px', height: 'auto', maxWidth: '100%' }} // Increased width for a larger image
+              />
             </motion.div>
           </div>
 

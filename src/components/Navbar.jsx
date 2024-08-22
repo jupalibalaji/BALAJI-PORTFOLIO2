@@ -3,22 +3,21 @@ import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 const Navbar = () => {
   return (
-    <nav className="mb-20 flex items-center justify-between py-6">
-      {/* Animated Logo */}
+    <nav className="mb-20 flex items-center justify-between py-5">
+      {}
       <div className="BJ">
         <motion.h1
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6, ease: "easeOut" }}
-        >
-          BJ
+        >BJ
         </motion.h1>
       </div>
 
       {/* Animated Social Icons */}
       <div className='m-8 flex justify-center gap-4 text-2xl'>
         <motion.a
-          href="https://www.linkedin.com"
+          href="https://www.linkedin.com/in/balaji-jupalli-1280112a7"
           target="_blank"
           rel="noopener noreferrer"
           initial={{ opacity: 0, y: -10 }}
@@ -29,7 +28,7 @@ const Navbar = () => {
         </motion.a>
 
         <motion.a
-          href="https://github.com"
+          href="https://github.com/jupalibalaji" // Replace with your GitHub profile URL
           target="_blank"
           rel="noopener noreferrer"
           initial={{ opacity: 0, y: -10 }}
@@ -40,7 +39,7 @@ const Navbar = () => {
         </motion.a>
 
         <motion.a
-          href="https://www.instagram.com"
+          href="https://www.instagram.com/your-profile" // Replace with your Instagram profile URL
           target="_blank"
           rel="noopener noreferrer"
           initial={{ opacity: 0, y: -10 }}
