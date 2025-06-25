@@ -13,7 +13,7 @@ const About = () => {
           animate={{ y: 0, opacity: 1 }}
           exit={{ y: -50, opacity: 0 }} // Optional exit animation
           transition={{ duration: 1, ease: "easeOut" }}
-          className='my-20 text-center text-3xl '
+          className='my-4 text-center text-3xl '
         >
           About <span className='text-neutral-500'>Me</span>
         </motion.h1>

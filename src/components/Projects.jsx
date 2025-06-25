@@ -27,8 +27,8 @@ const Projects = () => {
               {/* Fade-in with slight scale effect for project image */}
               <motion.img
                 src={project.image}
-                width={150}
-                height={150}
+                width={250}
+                height={250}
                 alt={project.title}
                 className="mb-6 rounded"
                 initial={{ opacity: 0, scale: 0.95 }}

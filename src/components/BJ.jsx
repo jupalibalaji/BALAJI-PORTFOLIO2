@@ -7,8 +7,8 @@ import { HERO_CONTENT } from "../constants";
 
 const BJ = () => {
   return (
-    <div className="border-b border-neutral-900 pb-4 lg:mb-35">
-      <div className="flex flex-wrap">
+    <div className="border-b border-neutral-900 px-1 pl-8  lg:mb-10">
+      <div className="flex flex-wrap pl-10 lg:pl-16">
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start lg:ml-8">
             {/* Slide-in from left for the name */}
@@ -42,20 +42,18 @@ const BJ = () => {
             </motion.p>
 
             {/* Resume Button */}
-            <a 
-              href="../assets/projects/Balaji_Java.pdf" // Replace with your resume file path
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-8 inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-500 to-indigo-600 text-white font-medium text-lg rounded-lg shadow-lg hover:bg-gradient-to-r hover:from-blue-600 hover:to-indigo-700 transition duration-300 ease-in-out"
-            >
-              <FontAwesomeIcon icon={faFileAlt} className="mr-3" />
-              RESUME
-            </a>
+              <button
+                  onClick={() => window.open('/src/assets/projects/Balaji_Java_Full%20Stack%20Developer.pdf', '_blank')}
+                  className="mt-8 inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-500 to-indigo-600 text-white font-medium text-lg rounded-lg shadow-lg hover:bg-gradient-to-r hover:from-blue-600 hover:to-indigo-700 transition duration-300 ease-in-out"
+              >
+                  <FontAwesomeIcon icon={faFileAlt} className="mr-3" />
+                  RESUME
+              </button>
           </div>
         </div>
 
         {/* Fade-in with scale effect for the profile picture */}
-        <div className="w-full lg:w-1/2 lg:p-8 flex justify-center items-start">
+        <div className="w-full lg:w-1/2 lg:p-10 flex justify-center items-start">
           <motion.div
             animate={{ opacity: 1, scale: 1 }}
             initial={{ opacity: 0, scale: 0.8 }}
@@ -67,10 +65,10 @@ const BJ = () => {
               alt="Profile" 
               className="shadow-lg"
               style={{ 
-                width: '400px', // Reduced width
+                width: '350px', // Reduced width
                 height: 'auto', // Maintain aspect ratio
                 maxWidth: '100%', 
-                borderRadius: '30px', // Reduced border radius
+                borderRadius: '20px', // Reduced border radius
                 objectFit: 'cover', // Ensures the image covers the area without distortion
                 marginTop: '0px' // Move the image up
               }}

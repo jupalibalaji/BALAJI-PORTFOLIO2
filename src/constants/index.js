@@ -49,7 +49,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: " 2536 Carywood Dr, Cary, NC, 27513 ",
+  address: " Cary, NC, 27513 ",
   phoneNo: "+1 937 867 8224",
   email: "balajijupallivelama@gmail.com",
 };
